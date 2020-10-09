@@ -18,7 +18,7 @@ pipeline {
         } 
         stage('Install serve') {
             steps {
-                sh 'sudo npm i -g serve'
+                sh 'npm i serve'
             }
         }
         stage('Deploy') {
